@@ -234,7 +234,7 @@ public class SpaceFXView extends View {
 
     @Override protected void updateAppBar(AppBar appBar) {
         appBar.setNavIcon(MaterialDesignIcon.MENU.button(e -> System.out.println("Menu")));
-        appBar.setTitleText("Basic View");
+        appBar.setTitleText("SpaceFX Mobile");
         appBar.getActionItems().add(MaterialDesignIcon.SEARCH.button(e -> System.out.println("Search")));
     }
 
